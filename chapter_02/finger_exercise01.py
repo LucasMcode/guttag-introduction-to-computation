@@ -6,9 +6,8 @@ num_list = [x, y, z]
 odd_numbers = []
 
 for num in num_list:
-    new_number = num
-    if new_number % 2 != 0:
-        odd_numbers.append(new_number)
+    if num % 2 != 0:
+        odd_numbers.append(num)
 if odd_numbers:
     print(max(odd_numbers))
 else:
